@@ -95,6 +95,7 @@ header{
 }
 .banner_content button:hover{
   background: #15a2fa42;
+  transform: scale(1.1);
 }
 .banner_icon {
   position: absolute;
@@ -285,6 +286,10 @@ header{
   border: 1px solid #fff;
   line-height: 40px;
   border-radius: 3px;
+  transition: .4s all ease-in-out;
+}
+.showcase_gallery_items ul li:hover{
+  transform: scale(1.1);
 }
 .showcase_gallery_items ul li a{
   color: #fff;
@@ -382,6 +387,7 @@ form textarea:focus{
 }
 .form_footer div input[type='submit']:hover{
   background: #15a4fa40;
+  transform: scale(1.1);
 }
 /* form section end */
 /* footer area start  */
